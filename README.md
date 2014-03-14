@@ -1,7 +1,7 @@
 sprml13-word-embeddings
 =======================
 
-This repository contains word embeddings generated using [1] and for a work [2] of the Shared Task of SPRML 2013
+This repository contains word embeddings generated using [1] for a work [2] of the Shared Task of SPRML 2013.
 
 - use german2.embeddings for better coverage. german.embeddings are
 used in the SPRML'13 Shared Task submission.
