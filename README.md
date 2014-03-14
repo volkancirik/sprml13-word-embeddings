@@ -1,17 +1,18 @@
 sprml13-word-embeddings
 =======================
 
-25 Dimensional Word Embeddings for the Shared Task of SPRML 2013
+This repository contains word embeddings generated using [1] and for a work [2] of the Shared Task of SPRML 2013
 
-use german2.embeddings for better coverage. german.embeddings are
+- use german2.embeddings for better coverage. german.embeddings are
 used in the SPRML'13 Shared Task submission.
 
-For english,use  [seed number]english50.embeddings or [seed number]english50+f.embeddings.
-The first one is extracted without morphologic and ortographic features. The second
+- For english, we used WSJ 120M token corpus as LM corpus, and 1M Penn Treebank Corpus as
+target corpus. They may have coverage problem. Use  [seed number]english50.embeddings or [seed number]english50+f.embeddings. The first one is extracted without morphologic and ortographic features. The second
 one is extracted with morphologic and ortographic features.
 
+- A better and generalized version of this repository is at [here](https://github.com/ai-ku/wvec)
 
-If you use the word embeddings you may want to cite:
+If you use these word embeddings in your work you may want to cite:
 
 [1]. Learning Syntactic Categories Using Paradigmatic Representations of Word Context, In Proceedings of the 2012 Conference on Empirical Methods in Natural Language Processing (EMNLP-CONLL 2012), Jeju, Korea, July. Association for Computational Linguistics, [Paper, Presentation & Code](http://www.denizyuret.com/2012/05/learning-syntactic-categories-using.html), [bib](http://aclweb.org/anthology/D/D12/D12-1086.bib). 
 
