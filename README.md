@@ -1,5 +1,9 @@
 sprml13-word-embeddings
 =======================
+- A better and generalized version of this repository with new word vectors is at [here](https://github.com/ai-ku/wvec)
+
+
+
 
 This repository contains word embeddings generated using [1] for a work [2] of the Shared Task of SPRML 2013.
 
@@ -9,8 +13,6 @@ used in the SPRML'13 Shared Task submission.
 - For english, we used WSJ 120M token corpus as LM corpus, and 1M Penn Treebank Corpus as
 target corpus. They may have coverage problem. Use  [seed number]english50.embeddings or [seed number]english50+f.embeddings. The first one is extracted without morphologic and ortographic features. The second
 one is extracted with morphologic and ortographic features.
-
-- A better and generalized version of this repository is at [here](https://github.com/ai-ku/wvec)
 
 If you use these word embeddings in your work you may want to cite:
 
